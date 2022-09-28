@@ -1,7 +1,7 @@
 package com.codingTest_test.ct.programmers.lv2;
 
 public class problem_12951 {
-    public String solution(String s) {
+    public static String solution(String s) {
         StringBuilder ans = new StringBuilder();
         String[] st = s.split(" ");
         String[] result = new String[st.length];
