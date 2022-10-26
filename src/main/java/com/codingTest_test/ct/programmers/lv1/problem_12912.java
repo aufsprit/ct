@@ -1,0 +1,20 @@
+package com.codingTest_test.ct.programmers.lv1;
+
+public class problem_12912 {
+    public long solution(int a, int b) {
+        long answer = 0;
+        int start = 0;
+        int end = 0;
+        if (a >= b) {
+            start = b;
+            end = a;
+        } else {
+            start = a;
+            end = b;
+        }
+        for (int i=start; i<=end; i++) {
+            answer += i;
+        }
+        return answer;
+    }
+}
